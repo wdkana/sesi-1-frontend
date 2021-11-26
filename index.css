@@ -1,0 +1,37 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 720px;
+  height: 100vh;
+  padding: 15px;
+  margin: 0 auto;
+  border: 2px solid grey;
+}
+
+/* ini css untuk basic website komponen */
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  height: 50px;
+  padding: 10px;
+  margin: 4px;
+  border-bottom: 2px solid black;
+}
+
+header > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+article {
+  margin-top: 20px;
+  height: 500px;
+}
+footer {
+  border-top: 1px solid black;
+  margin-top: auto;
+}
